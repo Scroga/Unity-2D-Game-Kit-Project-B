@@ -11,8 +11,7 @@ public class CameraController : MonoBehaviour
 
     public void ShakeCamera()
     {
-        MainCamera.transform.DOShakePosition(1.0f, 2f, 10, 90f);
-        Debug.Log("Shake");
+        MainCamera.transform.DOShakePosition(1.3f, 2f, 12, 90f);
     }
 }
 
